@@ -1,0 +1,16 @@
+.list{
+    display: flex;
+    align-items: stretch;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    margin: 0 -20px;
+}
+.list__item{
+    background: lightblue;
+    margin: 0 20px;
+    width: calc(33.33% - 40px);
+}
+img.list__image {
+    width: 250px;
+}
+/* flex-wrap: wrap; */
